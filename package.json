@@ -1,8 +1,8 @@
 {
-  "name": "telebot",
+  "name": "quiz-bot-fs",
   "version": "1.2.6",
-  "description": "The easy way to write Telegram bots.",
-  "main": "lib/telebot.js",
+  "description": "Telegram bot for Fridays Games",
+  "main": "src/index.js",
   "engines": {
     "node": ">= 6.0.0"
   },
@@ -14,6 +14,7 @@
     "eslint": "^3.19.0"
   },
   "scripts": {
+    "src": "./node_modules/.bin/ava src/index.js",
     "test": "./node_modules/.bin/ava test/index.js",
     "lint": "./node_modules/.bin/eslint **/*.js"
   },
@@ -31,8 +32,8 @@
     "telegram bot",
     "telegram bot api"
   ],
-  "author": "Mullwar <mullwar@gmail.com>",
-  "license": "MIT",
+  "author": "Romaerial <meck1002@gmail.com>",
+  "license": "Ax",
   "bugs": {
     "url": "https://github.com/Romaerial/telegram-bot-quiz-fs/issues"
   },
