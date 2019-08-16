@@ -25,3 +25,5 @@ const bot = new TeleBot({
 bot.on(['/start', '/hello'], (msg) => msg.reply.text(helloText));
 
 bot.start();
+
+bot.on(['/start', '/hello'], (msg) => msg.reply.text(helloText));
